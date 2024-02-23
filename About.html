@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Rental Website</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <!-- Start Top Bar -->
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Rental.html">Camera Rent</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+                <li><a href="Profile.html">Profile</a></li>
+           </ul>
+            <ul>
+                 <li><a href="index.html">CAM SHARE</a></li>
+                 <li class= "hideOnMobile"><a href="index.html">Home</a></li>
+                 <li class= "hideOnMobile"><a href="About.html">About Us</a></li>
+                 <li class= "hideOnMobile"><a href="Rental.html">Camera Rent</a></li>
+                 <li class= "hideOnMobile"><a href="Cart.html">Cart</a></li>
+                 <li class= "hideOnMobile"><a href="Profile.html">Profile</a></li>
+                 <li class= "menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Top Bar -->
+
+    <!-- Main Content Starts Here -->
+    <main style="margin: 10px;">
+        <section>
+            <div class="row">
+                <div class="column">
+                    <h2>About Us</h2>
+                    <p>Welcome to Camera Rental, your premier destination for high-quality camera equipment rentals. Our mission is to provide photographers and videographers with access to top-of-the-line gear at affordable prices.</p>
+                    <p>With years of experience in the industry, our team is dedicated to delivering exceptional service and ensuring that every rental experience exceeds your expectations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="column">
+                    <h3>How It Works</h3>
+                    <ol>
+                        <li>Choose Your Gear: Browse our extensive collection of cameras, lenses, and accessories to find the perfect equipment for your project.</li>
+                        <li>Check Availability: Select your rental dates and check the availability of your desired items.</li>
+                        <li>Reserve Online: Secure your rental reservation by completing the online booking process.</li>
+                        <li>Pick Up or Delivery: Choose to pick up your equipment at our location or opt for convenient delivery service.</li>
+                        <li>Return: Once your rental period is complete, return the gear in the same condition as received to avoid any additional charges.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="column">
+                    <h3>Why Choose Us</h3>
+                    <p>At Camera Rental, we pride ourselves on offering:</p>
+                    <ul>
+                        <li>A wide selection of top-quality equipment</li>
+                        <li>Competitive rental rates</li>
+                        <li>Convenient pickup and delivery options</li>
+                        <li>Knowledgeable and friendly customer service</li>
+                        <li>Flexible rental terms</li>
+                    </ul>
+                    <p>Whether you're a seasoned professional or an amateur enthusiast, we're here to support your creative vision and help you capture unforgettable moments.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer ( Junk Drawer )-->
+    <footer class="footer-nav row expanded collapse">
+        <div class="small-12 medium-6 large-3 columns footer-nav-left">
+          <p class="footer-copyright">© 2023 Camera Rental, Inc.</p>
+        </div>
+        <div class="small-12 medium-6 large-3 columns footer-nav-center">
+          <ul class="footer-nav-menu">
+            <li class="footer-nav-menu-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="About.html">About Us</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="Rental.html">Camera Rental</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="Cart.html">Cart</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="Profile.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+        <div class="small-12 medium-6 large-6 columns footer-nav-right">
+          <ul class="footer-nav-menu-icons">
+            <li class="footer-nav-menu-item">
+              <a href="https://www.facebook.com/">
+                <img class="footer-social-icon" src="icons/webicon-facebook-s.png" alt="">
+              </a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="https://twitter.com/">
+                <img class="footer-social-icon" src="icons/webicon-twitter-s.png" alt="">
+              </a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="https://www.youtube.com/user/zurb">
+                <img class="footer-social-icon" src="icons/webicon-youtube-s.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!-- Js script -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'  
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'  
+        }
+    </script>
+  </body>
+</html>

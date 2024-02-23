@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Rental Website</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation.css">
+</head>
+<body style="margin-right: 0px;">
+  <!-- Start Top Bar -->
+    <header>
+      <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Rental.html">Camera Rent</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="Login.html">Profile</a></li>
+            <ul class="dropdown-menu">
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Rental History</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+       </ul>
+        <ul>
+             <li><a href="index.html">CAM SHARE</a></li>
+             <li class= "hideOnMobile"><a href="index.html">Home</a></li>
+             <li class= "hideOnMobile"><a href="About.html">About Us</a></li>
+             <li class= "hideOnMobile"><a href="Rental.html">Camera Rent</a></li>
+             <li class= "hideOnMobile"><a href="Cart.html">Cart</a></li>
+             <li class= "hideOnMobile"><a href="Login.html">Profile</a></li>
+             <li class= "menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    </header>
+     <!-- End Top Bar -->
+
+     <!-- Main Content Starts Here -->
+
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <ul class="orbit-container">
+          <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+          <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+          <li class="orbit-slide is-active">
+            <img src="images/Camera Photo 4.jpg">
+          </li>
+          <li class="orbit-slide">
+            <img src="images/Camera Photo 2.jpg">
+          </li>
+          <li class="orbit-slide">
+            <img src="images/Camera Photo 3.jpg">
+          </li>
+          <li class="orbit-slide">
+            <img src="images/Camera Photo 1.jpg">
+          </li>
+        </ul>
+    </div>
+  
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="large-12 cell text-center">
+            <h1>Our Newest Rentals</h1>
+          </div>
+        </div>
+    </div>
+
+    <div class="grid-x row grid-container align_center_class g-grid">
+        <div>
+            <img class="cell large-3 medium-2 small-1 thumbnail"  src="images/Camera Rental 1.jpg">
+            <h5>Canon EOS</h5>
+            <p>7 day rental</p>
+            <a href="Rental.html"><button type="button" class="alert button">ADD TO RENTAL</button></a>
+            
+        </div>
+        <div>
+            <img class="cell large-3 medium-2 small-1 thumbnail" src="images/Camera Rental 2.jpg">
+            <h5>Konica C35</h5>
+            <p>5 day rental</p>
+            <a href="Rental.html"><button type="button" class="alert button">ADD TO RENTAL</button></a>
+        </div>
+        <div>
+            <img class="cell large-3 medium-2 small-1 thumbnail"  src="images/Camera Rental 3.jpg">
+            <h5>Nikon Dslr</h5>
+            <p>7 day rental</p>
+            <a href="Rental.html"><button type="button" class="alert button">ADD TO RENTAL</button></a>
+        </div>
+        <div>
+            <img class="cell large-3 medium-2 small-1 thumbnail" src="images/Camera Rental 4.jpg">
+            <h5>Canon EOS C</h5>
+            <p>4 day rental</p>
+            <a href="Rental.html"><button type="button" class="alert button">ADD TO RENTAL</button></a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="g_grid-x">
+      <h1>Renting gear is easy</h1>
+      <div class="g_main">
+        <div class="g_inner">
+          <ul class="cell checklist mt-4 gray80">
+            <h3>Select Dates</h3>
+              <li>Real-time inventory</li>
+              <li>Low or no deposit</li>
+          </ul>
+        </div>   
+        <div class="g_inner">
+          <ul class="cell checklist mt-4 gray80">
+            <h3>Gear Arrives</h3>
+              <li>Free standard shipping($149+)</li>
+              <li>Ship or pick up</li>
+          </ul>
+        </div> 
+        <div class="g_inner">
+          <ul class="cell checklist mt-4 gray80">
+            <h3>Create</h3>
+              <li>Use top gear</li>
+              <li>Rent from 1-90 days</li>
+          </ul>
+        </div> 
+        <div class="g_inner">
+          <ul class="cell checklist mt-4 gray80">
+            <h3>Easy Returns</h3>
+              <li>Repack in same box</li>
+              <li>We provide return label</li>
+          </ul>
+        </div>  
+      </div>
+    </div>
+
+    <!-- Footer ( Junk Drawer )-->
+    
+      <footer class="footer-nav row expanded collapse"style="margin:0px !importantt">
+        <div class="small-12 medium-6 large-3 columns footer-nav-left">
+          <p class="footer-copyright">© 2023 Camera Rental, Inc.</p>
+        </div>
+        <div class="small-12 medium-6 large-3 columns footer-nav-center">
+          <ul class="footer-nav-menu">
+            <li class="footer-nav-menu-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="About.html">About Us</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="Rental.html">Camera Rental</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="Cart.html">Cart</a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="Profile.html">Profile</a>
+            </li>
+          </ul>
+        </div>
+        <div class="small-12 medium-6 large-6 columns footer-nav-right">
+          <ul class="footer-nav-menu-icons">
+            <li class="footer-nav-menu-item">
+              <a href="https://www.facebook.com/">
+                <img class="footer-social-icon" src="icons/webicon-facebook-s.png" alt="">
+              </a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="https://twitter.com/">
+                <img class="footer-social-icon" src="icons/webicon-twitter-s.png" alt="">
+              </a>
+            </li>
+            <li class="footer-nav-menu-item">
+              <a href="https://www.youtube.com/user/zurb">
+                <img class="footer-social-icon" src="icons/webicon-youtube-s.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!-- Js script -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'  
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'  
+        }
+    </script>
+  </body>
+</html>

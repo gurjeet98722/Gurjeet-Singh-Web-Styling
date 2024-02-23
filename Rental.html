@@ -1,0 +1,237 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+   <!-- Start Top Bar -->
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Rental.html">Camera Rent</a></li>
+                <li><a href="Cart.html">Cart</a></li>
+                <li><a href="Profile.html">Profile</a></li>
+           </ul>
+            <ul>
+                 <li><a href="index.html">CAM SHARE</a></li>
+                 <li class= "hideOnMobile"><a href="index.html">Home</a></li>
+                 <li class= "hideOnMobile"><a href="About.html">About Us</a></li>
+                 <li class= "hideOnMobile"><a href="Rental.html">Camera Rent</a></li>
+                 <li class= "hideOnMobile"><a href="Cart.html">Cart</a></li>
+                 <li class= "hideOnMobile"><a href="Profile.html">Profile</a></li>
+                 <li class= "menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Top Bar -->
+    <br>
+
+    <!-- Main Content Starts Here -->
+    <div class="row g_grid">
+      <div class="small-12  medium-12 large-6 columns">
+        <img class="thumbnailProduct" src="images/EOS_IMAGE.png">
+      </div>
+      <div class="small-12 medium-12 large-6 columns">
+        <h3>CANON EOS 5D MARK IV</h3>
+        <p>Canon EOS 5D Mark IV DSLR which is an outstanding still photography option and an able 
+            4K-capable video machine. This multimedia maven offers a newly developed 30.4MP full-frame
+            CMOS sensor paired with the DIGIC 6+ image processor in order to balance fine detail and 
+            resolution with low-light performance and sensitivity. It is able to work within a native 
+            range of ISO 100-32000, which can then be expanded to an impressive ISO 50-102400, for sharp, 
+            low-noise images in a variety of conditions. Along with these improvements to image quality, 
+            users will enjoy a performance boost across the board with an enhanced AF system, built-in 
+            Wi-Fi, NFC, and GPS, and much more..</p>
+    
+        <label>
+          <select> 
+            <option value="">$120 - Personal Use</option>
+            <option value="starbuck">$150 - Business Use</option>
+            <option value="hotdog">$60 - Student</option>
+          </select>
+        </label>
+    
+        <div class="row">
+          <div class="small-3 columns">
+            <label for="middle-label" class="middle">Days</label>
+          </div>
+          <div class="small-9 columns">
+            <input type="text" id="middle-label" placeholder="Enter the numbe of days you would use the camera">
+          </div>
+        </div>
+    
+        <a href="Cart.html" class="button large expanded">Rent Now</a>
+      </div>
+    </div>
+    
+    <div class="column row">
+      <hr>
+      <ul class="tabs" data-tabs id="example-tabs">
+        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Reviews</a></li>
+        <li class="tabs-title"><a href="#panel2">Similar Products</a></li>
+      </ul>
+      <div class="tabs-content" data-tabs-content="example-tabs">
+        <div class="tabs-panel is-active" id="panel1">
+          <h4>Reviews</h4>
+          <div class="media-object stack-for-small">
+            <div class="media-object-section">
+              <img class="thumbnail" src="images/Lilly.jpg">
+            </div>
+            <div class="media-object-section">
+              <h5>Lilly Quintero</h5>
+              <p>I'm thoroughly impressed with the impeccable condition of the cameras I rented. Each one looked and performed like new, which speaks volumes about the company's commitment to maintaining top-notch equipment.</p>
+            </div>
+          </div>
+          <div class="media-object stack-for-small">
+            <div class="media-object-section">
+              <img class="thumbnail" src="images/Suliman Sallehi.jpg">
+            </div>
+            <div class="media-object-section">
+              <h5>Suliman Sallehi</h5>
+              <p>The attention to detail in the service provided by this rental company is commendable. From the pristine condition of the cameras to the seamless pickup and drop-off process, every aspect was thoughtfully executed. I'll certainly be returning for my future rental needs.</p>
+            </div>
+          </div>
+          <div class="media-object stack-for-small">
+            <div class="media-object-section">
+              <img class="thumbnail" src="images/Anna Nekrashevich.jpg">
+            </div>
+            <div class="media-object-section">
+              <h5>Anna Nekrashevich</h5>
+              <p>The cameras I rented were in pristine condition, reflecting the company's dedication to maintaining high-quality gear. It was evident that they take great care in ensuring that each piece of equipment is well-maintained and ready for use.</p>
+            </div>
+          </div>
+          <label>
+            My Review
+            <textarea placeholder="None"></textarea>
+          </label>
+          <button class="button">Submit Review</button>
+        </div>
+        <div class="tabs-panel" id="panel2">
+          <div class="row medium-up-3 large-up-5 g-grid">
+            <div class="column">
+              <img class="thumbnail" src="images/SOny m4.jpg">
+              <h5>Sony M4 <small>$70</small></h5>
+              <p>24.2 MP Exmor R CMOS Sensor
+                Full Frame Format
+                10 fps Continuous Shooting
+                ISO 100-51200 Expandable 
+                4K at 25p Video Recording</p>
+              <a href="#" class="button hollow tiny expanded">Buy Now</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="images/fujifilm.jpeg">
+              <h5>fujifilm<small>$70</small></h5>
+              <p>40.2 MP X-Trans CMOS Sensor
+                APS-C Format
+                20/15 fps Continuous  video high quality
+                ISO 125-12800 Expandable , 4k video
+                Digic X Processor</p>
+              <a href="#" class="button hollow tiny expanded">Buy Now</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="images/nikon f100.jpg">
+              <h5>Nikon f100<small>$60</small></h5>
+              <p>24.2 MP CMOS Sensor
+                Full Frame Format
+                12 fps Continuous Shooting
+                4K @ 60 fps / Full HD @ 180 recording
+                Digic X Processor</p>
+              <a href="#" class="button hollow tiny expanded">Buy Now</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="images/Sony m3.jpg">
+              <h5>Sony M3 <small>$100</small></h5>
+              <p>33MP CMOS Sensor
+                Full-Frame Format
+                10 fps Continuous Shooting
+                ISO 100-51200 Sensitivity
+                Focus Breathing Compensation</p>
+              <a href="#" class="button hollow tiny expanded">Buy Now</a>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="images/canon6d m2.jpg">
+              <h5>canon 6D M2<small>$80</small></h5>
+              <p>24.2 MP CMOS Sensor
+                Full Frame Format
+                12 fps Continuous Shooting
+                4K @ 60 fps / Full HD Video Recording
+                Digic X Processor</p>
+              <a href="#" class="button hollow tiny expanded">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer ( Junk Drawer )-->
+    <footer class="footer-nav row expanded collapse">
+      <div class="small-12 medium-6 large-3 columns footer-nav-left">
+        <p class="footer-copyright">© 2023 Camera Rental, Inc.</p>
+      </div>
+      <div class="small-12 medium-6 large-3 columns footer-nav-center">
+        <ul class="footer-nav-menu">
+          <li class="footer-nav-menu-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="footer-nav-menu-item">
+            <a href="About.html">About Us</a>
+          </li>
+          <li class="footer-nav-menu-item">
+            <a href="Rental.html">Camera Rental</a>
+          </li>
+          <li class="footer-nav-menu-item">
+            <a href="Cart.html">Cart</a>
+          </li>
+          <li class="footer-nav-menu-item">
+            <a href="Profile.html">Profile</a>
+          </li>
+        </ul>
+      </div>
+      <div class="small-12 medium-6 large-6 columns footer-nav-right">
+        <ul class="footer-nav-menu-icons">
+          <li class="footer-nav-menu-item">
+            <a href="https://www.facebook.com/">
+              <img class="footer-social-icon" src="icons/webicon-facebook-s.png" alt="">
+            </a>
+          </li>
+          <li class="footer-nav-menu-item">
+            <a href="https://twitter.com/">
+              <img class="footer-social-icon" src="icons/webicon-twitter-s.png" alt="">
+            </a>
+          </li>
+          <li class="footer-nav-menu-item">
+            <a href="https://www.youtube.com/user/zurb">
+              <img class="footer-social-icon" src="icons/webicon-youtube-s.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Js script -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+     <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'  
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'  
+        }
+    </script>
+  </body>
+</html>
+
+
+
